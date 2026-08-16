@@ -1,0 +1,15 @@
+# Requiere Python 3.11 o superior
+# Instalación:  pip install -r requirements.txt
+
+# --- Manipulación de datos ---
+pandas==2.3.3
+numpy==2.3.5
+
+# --- Lectura de archivos Excel ---
+openpyxl==3.1.5
+
+# --- Visualizaciones ---
+matplotlib==3.10.0
+
+# --- Ejecución de notebooks ---
+ipykernel==7.2.0

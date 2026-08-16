@@ -1,0 +1,151 @@
+id_entrega,id_estudiante,fecha_subida,materia,tipo_proyecto,puntaje_obtenido,estado_entrega
+PRJ-1001,E001,2026-08-01,Sistemas de Bases de Datos,Modelado ER,95.5,Aprobado
+PRJ-1002,E002,2026-08-02,Desarrollo de Software,Prototipo,88.0,Aprobado
+PRJ-1003,E003,2026-08-03,DataOps,Pipeline,92.0,Aprobado
+PRJ-1004,E006,2026-08-04,Sistemas de Bases de Datos,Script SQL,100.0,Aprobado
+PRJ-1005,E001,2026-08-05,Desarrollo de Software,API REST,85.0,Aprobado
+PRJ-1006,E007,2026-08-05,DataOps,Pipeline,78.5,Aprobado
+PRJ-1007,E008,2026-08-06,Sistemas de Bases de Datos,Normalización,90.0,Aprobado
+PRJ-1008,E011,2026-08-07,Desarrollo de Software,Frontend,82.0,Aprobado
+PRJ-1009,E002,2026-08-08,Sistemas de Bases de Datos,Script SQL,70.0,Revisión
+PRJ-1010,E012,2026-08-09,DataOps,Deploy,65.0,Revisión
+PRJ-1011,E006,2026-08-10,Desarrollo de Software,Testing,98.0,Aprobado
+PRJ-1012,E013,2026-08-11,Sistemas de Bases de Datos,Modelado ER,91.0,Aprobado
+PRJ-1013,E003,2026-08-12,Desarrollo de Software,API REST,89.5,Aprobado
+PRJ-1014,E007,2026-08-12,Sistemas de Bases de Datos,Script SQL,88.0,Aprobado
+PRJ-1015,E008,2026-08-13,DataOps,Pipeline,94.0,Aprobado
+PRJ-1016,E016,2026-08-14,Desarrollo de Software,Prototipo,81.0,Aprobado
+PRJ-1017,E020,2026-08-14,Sistemas de Bases de Datos,Normalización,75.0,Revisión
+PRJ-1018,E021,2026-08-15,DataOps,Deploy,100.0,Aprobado
+PRJ-1019,E024,2026-08-15,Desarrollo de Software,Testing,92.0,Aprobado
+PRJ-1020,E025,2026-08-16,Sistemas de Bases de Datos,Script SQL,86.0,Aprobado
+PRJ-1021,E027,2026-08-17,DataOps,Pipeline,95.0,Aprobado
+PRJ-1022,E028,2026-08-17,Desarrollo de Software,API REST,88.0,Aprobado
+PRJ-1023,E001,2026-08-18,DataOps,Deploy,97.0,Aprobado
+PRJ-1024,E002,2026-08-18,Desarrollo de Software,Testing,84.0,Aprobado
+PRJ-1025,E003,2026-08-19,Sistemas de Bases de Datos,Normalización,,Pendiente
+PRJ-1026,E006,2026-08-19,DataOps,Pipeline,91.0,Aprobado
+PRJ-1027,E007,2026-08-20,Desarrollo de Software,Prototipo,83.0,Aprobado
+PRJ-1028,E008,2026-08-20,Sistemas de Bases de Datos,Modelado ER,99.0,Aprobado
+PRJ-1029,E011,2026-08-21,DataOps,Deploy,87.0,Aprobado
+PRJ-1030,E012,2026-08-21,Desarrollo de Software,API REST,72.0,Revisión
+PRJ-1031,E013,2026-08-22,Sistemas de Bases de Datos,Script SQL,94.0,Aprobado
+PRJ-1032,E016,2026-08-22,DataOps,Pipeline,80.0,Aprobado
+PRJ-1033,E020,2026-08-23,Desarrollo de Software,Testing,88.0,Aprobado
+PRJ-1034,E021,2026-08-23,Sistemas de Bases de Datos,Normalización,96.0,Aprobado
+PRJ-1035,E024,2026-08-24,DataOps,Deploy,90.0,Aprobado
+PRJ-1036,E025,2026-08-24,Desarrollo de Software,Prototipo,,Pendiente
+PRJ-1037,E027,2026-08-25,Sistemas de Bases de Datos,Modelado ER,85.0,Aprobado
+PRJ-1038,E028,2026-08-25,DataOps,Pipeline,93.0,Aprobado
+PRJ-1039,E001,2026-08-26,Desarrollo de Software,Prototipo,96.0,Aprobado
+PRJ-1040,E002,2026-08-26,Sistemas de Bases de Datos,Normalización,78.0,Aprobado
+PRJ-1041,E003,2026-08-27,DataOps,Deploy,90.5,Aprobado
+PRJ-1042,E006,2026-08-27,Desarrollo de Software,API REST,95.0,Aprobado
+PRJ-1043,E007,2026-08-28,Sistemas de Bases de Datos,Modelado ER,82.0,Aprobado
+PRJ-1044,E008,2026-08-28,DataOps,Deploy,91.0,Aprobado
+PRJ-1045,E011,2026-08-29,Desarrollo de Software,Testing,89.0,Aprobado
+PRJ-1046,E012,2026-08-29,Sistemas de Bases de Datos,Script SQL,68.0,Revisión
+PRJ-1047,E013,2026-08-30,DataOps,Pipeline,97.0,Aprobado
+PRJ-1048,E016,2026-08-30,Desarrollo de Software,API REST,84.0,Aprobado
+PRJ-1049,E020,2026-08-31,Sistemas de Bases de Datos,Modelado ER,76.0,Aprobado
+PRJ-1050,E021,2026-08-31,DataOps,Deploy,99.0,Aprobado
+PRJ-1051,E024,2026-09-01,Desarrollo de Software,Prototipo,93.0,Aprobado
+PRJ-1052,E025,2026-09-01,Sistemas de Bases de Datos,Normalización,88.0,Aprobado
+PRJ-1053,E027,2026-09-02,DataOps,Deploy,94.0,Aprobado
+PRJ-1054,E028,2026-09-02,Desarrollo de Software,Testing,91.0,Aprobado
+PRJ-1055,E031,2026-09-03,Sistemas de Bases de Datos,Script SQL,,Pendiente
+PRJ-1056,E033,2026-09-03,Desarrollo de Software,Testing,94.0,Aprobado
+PRJ-1057,E035,2026-09-04,DataOps,Deploy,85.0,Aprobado
+PRJ-1058,E037,2026-09-04,Desarrollo de Software,Prototipo,92.0,Aprobado
+PRJ-1059,E038,2026-09-05,Sistemas de Bases de Datos,Normalización,86.0,Aprobado
+PRJ-1060,E040,2026-09-05,Desarrollo de Software,Testing,95.0,Aprobado
+PRJ-1061,E042,2026-09-06,Sistemas de Bases de Datos,Modelado ER,82.0,Aprobado
+PRJ-1062,E043,2026-09-06,Desarrollo de Software,API REST,98.0,Aprobado
+PRJ-1063,E045,2026-09-07,DataOps,Pipeline,91.0,Aprobado
+PRJ-1064,E046,2026-09-07,Desarrollo de Software,Testing,89.0,Aprobado
+PRJ-1065,E048,2026-09-08,Sistemas de Bases de Datos,Script SQL,90.0,Aprobado
+PRJ-1066,E050,2026-09-08,DataOps,Deploy,92.5,Aprobado
+PRJ-1067,E051,2026-09-09,Desarrollo de Software,Prototipo,88.0,Aprobado
+PRJ-1068,E053,2026-09-09,Sistemas de Bases de Datos,Normalización,91.0,Aprobado
+PRJ-1069,E055,2026-09-10,DataOps,Pipeline,96.0,Aprobado
+PRJ-1070,E056,2026-09-10,Desarrollo de Software,API REST,85.0,Aprobado
+PRJ-1071,E058,2026-09-11,Sistemas de Bases de Datos,Modelado ER,98.0,Aprobado
+PRJ-1072,E060,2026-09-11,DataOps,Deploy,84.0,Aprobado
+PRJ-1073,E001,2026-09-12,Desarrollo de Software,Frontend,91.0,Aprobado
+PRJ-1074,E002,2026-09-12,Sistemas de Bases de Datos,Script SQL,89.0,Aprobado
+PRJ-1075,E003,2026-09-13,DataOps,Pipeline,,Pendiente
+PRJ-1076,E006,2026-09-13,Desarrollo de Software,Testing,97.0,Aprobado
+PRJ-1077,E007,2026-09-14,Sistemas de Bases de Datos,Normalización,88.0,Aprobado
+PRJ-1078,E008,2026-09-14,DataOps,Deploy,94.0,Aprobado
+PRJ-1079,E011,2026-09-15,Desarrollo de Software,Prototipo,90.0,Aprobado
+PRJ-1080,E012,2026-09-15,Sistemas de Bases de Datos,Modelado ER,75.0,Revisión
+PRJ-1081,E013,2026-09-16,DataOps,Pipeline,99.0,Aprobado
+PRJ-1082,E016,2026-09-16,Desarrollo de Software,API REST,86.0,Aprobado
+PRJ-1083,E020,2026-09-17,Sistemas de Bases de Datos,Script SQL,82.0,Aprobado
+PRJ-1084,E021,2026-09-17,DataOps,Deploy,95.0,Aprobado
+PRJ-1085,E024,2026-09-18,Desarrollo de Software,Testing,93.0,Aprobado
+PRJ-1086,E025,2026-09-18,Sistemas de Bases de Datos,Normalización,89.0,Aprobado
+PRJ-1087,E027,2026-09-19,DataOps,Pipeline,96.0,Aprobado
+PRJ-1088,E028,2026-09-19,Desarrollo de Software,Prototipo,87.0,Aprobado
+PRJ-1089,E031,2026-09-20,Sistemas de Bases de Datos,Modelado ER,94.0,Aprobado
+PRJ-1090,E033,2026-09-20,DataOps,Deploy,88.0,Aprobado
+PRJ-1091,E035,2026-09-21,Desarrollo de Software,API REST,91.0,Aprobado
+PRJ-1092,E037,2026-09-21,Sistemas de Bases de Datos,Script SQL,97.0,Aprobado
+PRJ-1093,E038,2026-09-22,DataOps,Pipeline,85.0,Aprobado
+PRJ-1094,E040,2026-09-22,Desarrollo de Software,Testing,92.0,Aprobado
+PRJ-1095,E042,2026-09-23,Sistemas de Bases de Datos,Normalización,,Pendiente
+PRJ-1096,E043,2026-09-23,DataOps,Deploy,98.0,Aprobado
+PRJ-1097,E045,2026-09-24,Desarrollo de Software,Prototipo,89.0,Aprobado
+PRJ-1098,E046,2026-09-24,Sistemas de Bases de Datos,Modelado ER,90.0,Aprobado
+PRJ-1099,E048,2026-09-25,DataOps,Pipeline,93.0,Aprobado
+PRJ-1100,E050,2026-09-25,Desarrollo de Software,API REST,86.0,Aprobado
+PRJ-1101,E051,2026-09-26,Sistemas de Bases de Datos,Script SQL,95.0,Aprobado
+PRJ-1102,E053,2026-09-26,DataOps,Deploy,91.0,Aprobado
+PRJ-1103,E055,2026-09-27,Desarrollo de Software,Testing,96.0,Aprobado
+PRJ-1104,E056,2026-09-27,Sistemas de Bases de Datos,Normalización,84.0,Aprobado
+PRJ-1105,E058,2026-09-28,DataOps,Pipeline,99.0,Aprobado
+PRJ-1106,E060,2026-09-28,Desarrollo de Software,Prototipo,88.0,Aprobado
+PRJ-1107,E001,2026-09-29,Sistemas de Bases de Datos,Modelado ER,97.0,Aprobado
+PRJ-1108,E002,2026-09-29,DataOps,Deploy,90.0,Aprobado
+PRJ-1109,E003,2026-09-30,Desarrollo de Software,API REST,93.0,Aprobado
+PRJ-1110,E006,2026-09-30,Sistemas de Bases de Datos,Script SQL,98.0,Aprobado
+PRJ-1111,E007,2026-10-01,DataOps,Pipeline,89.0,Aprobado
+PRJ-1112,E008,2026-10-01,Desarrollo de Software,Testing,95.0,Aprobado
+PRJ-1113,E011,2026-10-02,Sistemas de Bases de Datos,Normalización,92.0,Aprobado
+PRJ-1114,E012,2026-10-02,DataOps,Deploy,70.0,Revisión
+PRJ-1115,E013,2026-10-03,Desarrollo de Software,Prototipo,96.0,Aprobado
+PRJ-1116,E016,2026-10-03,Sistemas de Bases de Datos,Modelado ER,85.0,Aprobado
+PRJ-1117,E020,2026-10-04,DataOps,Pipeline,88.0,Aprobado
+PRJ-1118,E021,2026-10-04,Desarrollo de Software,API REST,100.0,Aprobado
+PRJ-1119,E024,2026-10-05,Sistemas de Bases de Datos,Script SQL,94.0,Aprobado
+PRJ-1120,E025,2026-10-05,DataOps,Deploy,91.0,Aprobado
+PRJ-1121,E027,2026-10-06,Desarrollo de Software,Testing,97.0,Aprobado
+PRJ-1122,E028,2026-10-06,Sistemas de Bases de Datos,Normalización,90.0,Aprobado
+PRJ-1123,E031,2026-10-07,DataOps,Pipeline,,Pendiente
+PRJ-1124,E033,2026-10-07,Desarrollo de Software,Prototipo,89.0,Aprobado
+PRJ-1125,E035,2026-10-08,Sistemas de Bases de Datos,Modelado ER,95.0,Aprobado
+PRJ-1126,E037,2026-10-08,DataOps,Deploy,98.0,Aprobado
+PRJ-1127,E038,2026-10-09,Desarrollo de Software,API REST,87.0,Aprobado
+PRJ-1128,E040,2026-10-09,Sistemas de Bases de Datos,Script SQL,93.0,Aprobado
+PRJ-1129,E042,2026-10-10,DataOps,Pipeline,84.0,Aprobado
+PRJ-1130,E043,2026-10-10,Desarrollo de Software,Testing,99.0,Aprobado
+PRJ-1131,E045,2026-10-11,Sistemas de Bases de Datos,Normalización,91.0,Aprobado
+PRJ-1132,E046,2026-10-11,DataOps,Deploy,90.0,Aprobado
+PRJ-1133,E048,2026-10-12,Desarrollo de Software,Prototipo,94.0,Aprobado
+PRJ-1134,E050,2026-10-12,Sistemas de Bases de Datos,Modelado ER,92.0,Aprobado
+PRJ-1135,E051,2026-10-13,DataOps,Pipeline,96.0,Aprobado
+PRJ-1136,E053,2026-10-13,Desarrollo de Software,API REST,89.0,Aprobado
+PRJ-1137,E055,2026-10-14,Sistemas de Bases de Datos,Script SQL,98.0,Aprobado
+PRJ-1138,E056,2026-10-14,DataOps,Deploy,86.0,Aprobado
+PRJ-1139,E058,2026-10-15,Desarrollo de Software,Testing,100.0,Aprobado
+PRJ-1140,E060,2026-10-15,Sistemas de Bases de Datos,Normalización,87.0,Aprobado
+PRJ-1141,E001,2026-10-16,DataOps,Pipeline,95.0,Aprobado
+PRJ-1142,E002,2026-10-16,Desarrollo de Software,Prototipo,88.0,Aprobado
+PRJ-1143,E003,2026-10-17,Sistemas de Bases de Datos,Modelado ER,93.0,Aprobado
+PRJ-1144,E006,2026-10-17,DataOps,Deploy,99.0,Aprobado
+PRJ-1145,E007,2026-10-18,Desarrollo de Software,API REST,90.0,Aprobado
+PRJ-1146,E008,2026-10-18,Sistemas de Bases de Datos,Script SQL,96.0,Aprobado
+PRJ-1147,E011,2026-10-19,DataOps,Pipeline,91.0,Aprobado
+PRJ-1148,E012,2026-10-19,Desarrollo de Software,Testing,72.0,Revisión
+PRJ-1149,E013,2026-10-20,Sistemas de Bases de Datos,Normalización,97.0,Aprobado
+PRJ-1150,E016,2026-10-20,DataOps,Deploy,87.0,Aprobado
