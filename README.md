@@ -25,6 +25,10 @@ Consolidación de las entregas académicas de dos campus y su cruce con el catá
 | `visualizaciones/` | Gráficos generados. |
 | `docs/` | Documento metodológico. |
 
+Justificación de la arquitectura y detalle de lectura parametrizada de
+los datos: ver [docs/01_estructura_proyecto.md](docs/01_estructura_proyecto.md)
+y [docs/02_lectura_parametrizada.md](docs/02_lectura_parametrizada.md).
+
 ## Requisitos
 
 Python 3.11 o superior
