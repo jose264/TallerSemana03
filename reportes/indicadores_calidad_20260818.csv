@@ -1,0 +1,10 @@
+﻿indicador,valor
+archivos_procesados,3
+registros_leidos,360
+registros_descartados,0
+claves_sin_correspondencia,5
+nulos_criticos,0
+nulos_esperados,9
+dimensiones_salida,300 x 20
+archivos_generados,6
+fecha_procesamiento,2026-08-18
