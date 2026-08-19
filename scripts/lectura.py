@@ -83,24 +83,6 @@ def leer_catalogo_maestro(ruta):
     return df
 
 
-def normalizar_json_anidado(registros, record_path=None, meta=None):
-    """Aplana estructuras JSON anidadas a formato tabular.
-
-    El taller exige contemplar fuentes en JSON aunque los tres archivos
-    provistos sean CSV (uno de ellos disfrazado de Excel). Esta función
-    documenta el mecanismo que se usaría si el sistema de entregas de un
-    futuro campus entregara los datos en JSON, p. ej. una lista de
-    estudiantes con una sublista anidada de entregas:
-
-        [{"id_estudiante": "E001", "entregas": [{...}, {...}]}]
-
-    record_path indica la lista anidada a expandir (p. ej. "entregas") y
-    meta las columnas del nivel superior que deben repetirse en cada fila
-    (p. ej. ["id_estudiante"]).
-    """
-    return pd.json_normalize(registros, record_path=record_path, meta=meta)
-
-
 if __name__ == "__main__":
     base = Path(__file__).resolve().parent.parent / "datos" / "originales"
 
