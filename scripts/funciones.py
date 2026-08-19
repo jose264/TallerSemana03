@@ -2,81 +2,13 @@
 funciones.py - Funciones reutilizables del flujo analitico
 Taller Practico 3 - Python para Ciencia de Datos - UIDE
 
-Modulo con las operaciones de lectura, validacion, integracion y control
-de calidad utilizadas por el cuaderno principal.
+Modulo con las operaciones de validacion, integracion y control de
+calidad utilizadas por el cuaderno principal. La lectura parametrizada
+reside en scripts/lectura.py.
 """
 
-from pathlib import Path
 
 import pandas as pd
-
-# Extensiones que corresponden a cada formato real detectado por contenido.
-extensiones_por_formato = {
-    "excel": {"xlsx", "xlsm", "xls"},
-    "csv": {"csv", "txt", "tsv"},
-}
-
-
-# ==============================================================================
-# LECTURA  (Componente 2)
-# ==============================================================================
-
-def detectar_formato(ruta):
-    """Identifica el formato real de un archivo leyendo su contenido.
-
-    La extension puede no corresponder al contenido: se inspeccionan los
-    primeros bytes en lugar de confiar en el nombre del archivo.
-
-    Devuelve: 'excel' o 'csv'.
-    """
-    ruta = Path(ruta)
-    with open(ruta, "rb") as archivo:
-        firma = archivo.read(4)
-
-    # Los .xlsx son archivos ZIP: comienzan con PK\x03\x04
-    if firma[:2] == b"PK":
-        return "excel"
-
-    # Los .xls antiguos usan el formato compuesto de Microsoft
-    if firma == b"\xd0\xcf\x11\xe0":
-        return "excel"
-
-    return "csv"
-
-
-def coincide_extension(ruta, formato):
-    """Indica si la extension declarada corresponde al formato real."""
-    return Path(ruta).suffix.lstrip(".").lower() in extensiones_por_formato[formato]
-
-
-def leer_archivo(ruta, **parametros):
-    """Lee un archivo aplicando el motor que corresponde a su formato real.
-
-    Acepta los parametros propios de cada lector de Pandas
-    (sep, encoding, dtype, parse_dates, etc.); los que no aplican al
-    motor elegido se descartan.
-
-    Devuelve: (DataFrame, formato_real)
-    """
-    ruta = Path(ruta)
-    if not ruta.exists():
-        raise FileNotFoundError(f"No se encontro el archivo: {ruta}")
-
-    formato = detectar_formato(ruta)
-
-    if formato == "excel":
-        validos = {"sheet_name", "dtype", "parse_dates", "usecols",
-                   "na_values", "header", "skiprows"}
-        df = pd.read_excel(ruta, **{k: v for k, v in parametros.items()
-                                    if k in validos})
-
-    else:
-        validos = {"sep", "encoding", "dtype", "parse_dates", "usecols",
-                   "na_values", "decimal", "header", "skiprows"}
-        df = pd.read_csv(ruta, **{k: v for k, v in parametros.items()
-                                  if k in validos})
-
-    return df, formato
 
 
 # ==============================================================================
